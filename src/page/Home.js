@@ -1,14 +1,12 @@
-import React from 'react';
-
-// css
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-  // javasrcipt
-
-  return (<div>
-    {/* html */}
-    홈입니다
-  </div>);
-}
+  return (
+    <div>
+      <Link to="/clock">chapter_4 Clock</Link>
+    </div>
+  );
+};
 
 export default Home;
