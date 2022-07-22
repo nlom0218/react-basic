@@ -17,7 +17,7 @@ const Avatar = styled.div`
   align-self: flex-start;
   min-width: 40px;
   height: 40px;
-  background-color: rgba(160, 160, 160);
+  background-color: rgba(200, 200, 200);
   border-radius: 50%;
   margin-right: 20px;
 `;
